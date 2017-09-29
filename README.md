@@ -13,7 +13,7 @@ You can also help in seeding the contents or you can visit the page on your own 
 - *This might take some time... Go grab a nice coffee or tea or get some sleep while it is running.* Open another terminal while leaving the previous running and execute these:
 
 ```sh
-./ipfs pin $(./ipfs resolve -r /ipns/QmZxWEBJBVkGDGaKdYPQUXX4KC5TCWbvuR4iYZrTML8XCR)
+./ipfs pin add $(./ipfs resolve -r /ipns/QmZxWEBJBVkGDGaKdYPQUXX4KC5TCWbvuR4iYZrTML8XCR)
 ```
 
 - After getting all data succeeded (about 2GB of content) you can visit the page locally: https://localhost:8080/ipns/QmZxWEBJBVkGDGaKdYPQUXX4KC5TCWbvuR4iYZrTML8XCR/
